@@ -4,6 +4,14 @@ font: 400 15px Lato, sans-serif;
 line-height: 1.8;
 color: #818181;
 }
+.img-rounded{
+    height:200px;
+    width: 200px;
+}
+
+.text{
+    margin-top: 100px;
+}
 
 h2 {
 font-size: 24px;
@@ -22,10 +30,11 @@ margin-bottom: 30px;
 }
 
 .jumbotron {
-background-color: #f4511e;
+background-image: url("Window.JPG");
 color: #fff;
 padding: 100px 25px;
 font-family: Montserrat, sans-serif;
+height: 430px;
 }
 
 .container-fluid {
@@ -37,12 +46,12 @@ background-color: #f6f6f6;
 }
 
 .logo-small {
-color: #f4511e;
+color: #ff865a;
 font-size: 50px;
 }
 
 .logo {
-color: #f4511e;
+color: #ff865a;
 font-size: 200px;
 }
 
@@ -60,15 +69,15 @@ margin-bottom: 10px;
 
 .carousel-control.right, .carousel-control.left {
 background-image: none;
-color: #f4511e;
+color: #ff865a;
 }
 
 .carousel-indicators li {
-border-color: #f4511e;
+border-color: #ff865a;
 }
 
 .carousel-indicators li.active {
-background-color: #f4511e;
+background-color: #ff865a;
 }
 
 .item h4 {
@@ -84,7 +93,7 @@ font-style: normal;
 }
 
 .panel {
-border: 1px solid #f4511e;
+border: 1px solid #ff865a;
 border-radius: 0 !important;
 transition: box-shadow 0.5s;
 }
@@ -94,14 +103,14 @@ box-shadow: 5px 0px 40px rgba(0,0,0, .2);
 }
 
 .panel-footer .btn:hover {
-border: 1px solid #f4511e;
+border: 1px solid #ff865a;
 background-color: #fff !important;
-color: #f4511e;
+color: #ff865a;
 }
 
 .panel-heading {
 color: #fff !important;
-background-color: #f4511e !important;
+background-color: #ff865a !important;
 padding: 25px;
 border-bottom: 1px solid transparent;
 border-top-left-radius: 0px;
@@ -125,7 +134,7 @@ font-size: 14px;
 
 .panel-footer .btn {
 margin: 15px 0;
-background-color: #f4511e;
+background-color: #ff865a;
 color: #fff;
 }
 
@@ -141,7 +150,7 @@ color: #fff;
 
 .navbar {
 margin-bottom: 0;
-background-color: #f4511e;
+background-color:#ff865a;
 z-index: 9999;
 border: 0;
 font-size: 12px !important;
@@ -156,7 +165,7 @@ color: #fff !important;
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
-color: #f4511e !important;
+color: #ff865a !important;
 background-color: #fff !important;
 }
 
@@ -168,7 +177,7 @@ color: #fff !important;
 footer .glyphicon {
 font-size: 20px;
 margin-bottom: 20px;
-color: #f4511e;
+color:#ff865a;
 }
 
 .slideanim {
