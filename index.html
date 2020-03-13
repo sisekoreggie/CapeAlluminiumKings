@@ -10,6 +10,8 @@
     <link href="https://unpkg.com/material-components-web@v4.0.0/dist/material-components-web.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/material-components-web@v4.0.0/dist/material-components-web.min.js"></script>
@@ -258,12 +260,15 @@
                     Host: "smtp.sendgrid.net",
                     Username: "apikey",
                     Password: mySecret.replace("siseko", "SG"),
-                    To: 'njataabo@gmail.com',
+                    To: 'mpilo@capealluminiumkings.com',
                     From: "sisekoreggieneti@gmail.com",
                     Subject: "Contact us",
                     Body: emailBody,
                 }).then(
-                    message => alert("mail sent successfully")
+                    message => $.alert({
+                        title: 'Thank you !!!!',
+                        content: 'Your message has been sent successfully and we shall get back to you soon.',
+                    })
                 );
             }
 
