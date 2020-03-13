@@ -253,10 +253,11 @@
             });
 
             function sendEmail(emailBody) {
+                var mySecret = "siseko.Bw0L8ArgQgG4JVkWyMYs-A.JaSbGs1pWWN7X5P9EiBfPYuzIML94R3BKoRja8E6-dA";
                 Email.send({
                     Host: "smtp.sendgrid.net",
                     Username: "apikey",
-                    Password: secrets.SendGrid_Api_Key,
+                    Password: mySecret.replace("siseko", "SG"),
                     To: 'njataabo@gmail.com',
                     From: "sisekoreggieneti@gmail.com",
                     Subject: "Contact us",
