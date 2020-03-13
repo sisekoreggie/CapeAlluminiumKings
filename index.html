@@ -256,7 +256,7 @@
                 Email.send({
                     Host: "smtp.sendgrid.net",
                     Username: "apikey",
-                    Password: ${{ secrets.SendGrid_Api_Key }},
+                    Password: secrets.SendGrid_Api_Key,
                     To: 'njataabo@gmail.com',
                     From: "sisekoreggieneti@gmail.com",
                     Subject: "Contact us",
