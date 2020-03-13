@@ -207,7 +207,7 @@
                     </div>
                 </div>
                 <textarea class="form-control" id="message" name="message" placeholder="Your message" rows="5"
-                    required></textarea><br>
+                type="text" required></textarea><br>
                 <div class="row">
                     <div class="col-sm-12 form-group">
                         <button id="submit-button" class="btn btn-default pull-right" type="submit">Send</button>
@@ -272,9 +272,7 @@
                 var telephone = $("#telephone").val();
                 var message = $("#message").val();
 
-                var contactMessage = "Name: " + name + " \nEmail: " + email + "\nTelephone: " + telephone + " \nMessage: " + message;
-
-                var emailHtml = '<table> <tr>  <td>Name: ' + name + ' </td></tr> <tr> </tr> <td>Telephone: ' + telephone + ' </td> <tr> <td>Message: ' + message + ' </td></tr> </table>'
+                var emailHtml = '<table> <tr>  <td>Name: ' + name + ' </td></tr> <tr> <td> Email: ' + email + '</td> </tr> <tr> </tr> <td>Telephone: ' + telephone + ' </td> <tr> <td>Message: ' + message + ' </td></tr> </table>'
                 sendEmail(emailHtml);
             }
 
