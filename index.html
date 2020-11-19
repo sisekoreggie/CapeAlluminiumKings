@@ -2,11 +2,12 @@
 <html lang="en">
 
 <head>
-    <link rel="icon" type="image/x-icon" href="/favicon_io/icon.png">
-    <title>Cape Alluminium Kings</title>
+    <link rel="icon" type="image/x-icon" href="C:/code/capealluminiumkings/favicon_io/icon.png">
+    <title>Cape Aluminium Kings</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link href="https://unpkg.com/material-components-web@v4.0.0/dist/material-components-web.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
@@ -15,6 +16,7 @@
     <script src="https://unpkg.com/material-components-web@v4.0.0/dist/material-components-web.min.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script src="index.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -28,7 +30,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#myPage"><img class="img-rounded" style="height:80px; width:80px;margin-top:-30px;margin-left: -50px;" src="noBackground.svg"></a>
+                <a class="navbar-brand" href="#myPage"><img class="img-rounded"
+                        style="height:80px; width:80px;margin-top:-30px;margin-left: -50px;" src="noBackground.svg"></a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
@@ -43,10 +46,12 @@
 
     <div class="jumbotron text-center">
         <div class="text">
-            <h1>CAPE ALLUMINIUM KINGS</h1>
-            <p>Tailored glass and alluminium kings</p>
+            <h1>CAPE ALUMINIUM KINGS</h1>
+            <p>Tailored glass and aluminium windows & doors</p>
         </div>
-
+        <div class="button-wrapper">
+            <a class="btn button align-center" href="#contact">GET A QUOTE</a>
+        </div>
 
     </div>
 
@@ -54,15 +59,15 @@
     <div id="about" class="container-fluid">
         <div class="row">
             <div class="col-sm-8">
-                <h2>About Company</h2><br>
+                <h2>About Company Page</h2><br>
                 <h4>Cape Aluminium Kings.</h4><br>
                 <p>A leading supplier in aluminium doors and windows.
-                    We pride ourselves in manufacturing high quality aluminium doors, windows, shop fronts, 
+                    We pride ourselves in manufacturing high quality aluminium doors, windows, shop fronts,
                     shower doors and we also specialize in window tinting.
                 </p>
             </div>
             <div class="col-sm-4">
-                <span class="glyphicon glyphicon-signal logo"></span>
+                <img class="about-image" src="shutterstock_1428001268.jpg" alt="Slidding door" />
             </div>
         </div>
     </div>
@@ -70,17 +75,17 @@
     <div class="container-fluid bg-grey">
         <div class="row">
             <div class="col-sm-4">
-                <span class="glyphicon glyphicon-globe logo slideanim"></span>
+                <img class="our-values-image" src="shutterstock_788319139.jpg" alt="" />
             </div>
             <div class="col-sm-8">
                 <h2>Our Values</h2><br>
-                <h4><strong>MISSION:</strong> Our mission is to attain highest quality standards in manufacturing and 
-                    supplying aluminium aluminium glass products while offering competetive prices to our customers
-                    (WE WILL SURE BEAT ANY GENUINE WRITTEN QUOTE).</h4><br>
+                <h4><strong>MISSION:</strong> Our mission is to attain highest quality standards in manufacturing and
+                    supplying aluminium aluminium glass products while offering competitive prices to our customers
+                    (WE WILL SURE BEAT ANY GENUINE WRITTEN QUOUTE).</h4><br>
                 <p>
-                    <strong>VISION:</strong> Our vision is to provide products and services of high quality 
-                    to our customers, and also we continuously train and retain our staff members to provide consistant
-                    services to whoever we serve.  
+                    <strong>VISION:</strong> Our vision is to provide products and services of high quality
+                    to our customers, and also we continuiusly train our staff members to provide consistant
+                    services to whoever we serve.
                 </p>
             </div>
         </div>
@@ -93,64 +98,75 @@
             <div class="col-sm-4">
                 <img src="unnamed.jpg" class="img-rounded" alt="window">
                 <h4>RESIDENTIAL</h4>
-                <p>Shower doors, mirrors, table tops, patios and windows.
-                   These durable shower doors are designed to allow for maximum door-opening space,
-                   and the windows are flexible and versatile, the Origin casement window can be designed and manufactured 
-                   for virtually any environment and in any configuration</p>
+                <p>Shower doors, mirrors, table tops,patios and windows.
+                    These durable shower doors are designed to allow for maximum door-opening space,
+                    and the windows are flexible and versatile, the Origin casement window can be designed and
+                    manufactured
+                    for virtually any environment and in any configuration</p>
             </div>
             <div class="col-sm-4">
                 <img src="door1.png" class="img-rounded" alt="door">
                 <h4>COMMERCIAL</h4>
-                <p>Shop fronts, stack away and horizontal sliding doors, enclosures and decorative sand blasting. 
-                   which is one way of etching glass that creates a look associated with frosted glass
-                   giving the most elegant look on your clear glass or mirror panels.</p>
+                <p>Shop fronts, stack away and horizontal sliding doors, enclosures and decorative sand blasting.
+                    which is one way of etching glass that creates a look associated with frosted glass
+                    giving the most elegant look on your clear glass or mirror panels.</p>
             </div>
             <div class="col-sm-4">
                 <img src="gate.jpg" class="img-rounded" alt="gate">
                 <h4>INDUSTRIAL</h4>
                 <p>Industrial gates automated and none and neat palisade fencing.
-                    View and when opened slides back effortlessly with it's perfect mechanism. The sliding 
+                    view and when opened slides back effortlessly with it's perfect mechanism. The sliding
                     leaf on the inside of the window is fitted with a lock ensuring security</p>
             </div>
         </div>
+        <div class="row slideanim">
+            <div class="col-sm-4">
+                <img src="shutterstock_167342759.jpg" class="img-rounded" alt="window">
+                <h4>DESIGN</h4>
+
+            </div>
+            <div class="col-sm-4">
+                <img src="shutterstock_707550259.jpg" class="img-rounded" alt="door">
+                <h4>MANUFACTURING</h4>
+            </div>
+            <div class="col-sm-4">
+                <img src="shutterstock_684512479.jpg" class="img-rounded" alt="gate">
+                <h4>INSTALLATION</h4>
             </div>
         </div>
+    </div>
+    </div>
     </div>
 
     <!-- Container (Portfolio Section) -->
     <div id="portfolio" class="container-fluid text-center bg-grey">
         <h2>Portfolio</h2>
         <h4>What we have created</h4>
-        <div class="row text-center slideanim">
-            <div class="col-sm-3">
-                <div class="thumbnail">
-                    <img src="alluminium-1.jpeg" alt="Paris" width="400" height="300">
-                    <p><strong>Double Door</strong></p>
-                    <p>Yes, we offer top hung windows</p>
-                </div>
+
+        <!-- Slider main container -->
+        <div class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="g7.jpg" alt="Paris" width="400" height="300"></div>
+                <div class="swiper-slide"><img src="g8.jpg" alt="New York" width="400" height="300"></div>
+                <div class="swiper-slide"><img src="g9.jpg" alt="San Francisco" width="400" height="300"></div>
+                <div class="swiper-slide"><img src="shutterstock_1071365672.jpg" alt="San Francisco" width="400"
+                        height="300"></div>
+                <div class="swiper-slide"><img src="shutterstock_1702300444.jpg" alt="San Francisco" width="400"
+                        height="300"></div>
+                <div class="swiper-slide"><img src="shutterstock_1346059646.jpg" alt="San Francisco" width="400"
+                        height="300"></div>
+                ...
             </div>
-            <div class="col-sm-3">
-                <div class="thumbnail">
-                    <img src="alluminium-2.jpeg" alt="New York" width="400" height="300">
-                    <p><strong>Single Door</strong></p>
-                    <p>We design side hung windows</p>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="thumbnail">
-                    <img src="alluminium-3.jpeg" alt="San Francisco" width="400" height="300">
-                    <p><strong>Garage Door</strong></p>
-                    <p>Yes, sliding windows do</p>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="thumbnail">
-                    <img src="alluminium-4.jpeg" alt="San Francisco" width="400" height="300">
-                    <p><strong>Store Front</strong></p>
-                    <p>Yes, sliding windows do</p>
-                </div>
-            </div>
-        </div><br>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div><br /><br />
+
 
         <h2>What our customers say</h2>
         <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
@@ -164,13 +180,15 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <h4>"I am so happy with the result!"<br><span>Michael</span></h4>
+                    <h4>"This company is the best. I am so happy with the result!"<br><span>Michael Roe, Vice President,
+                            Comment Box</span></h4>
                 </div>
                 <div class="item">
-                    <h4>"Work well done!!"<br><span>Reggie</span></h4>
+                    <h4>"One word... WOW!!"<br><span>John Doe, Salesman, Rep Inc</span></h4>
                 </div>
                 <div class="item">
-                    <h4>"Could I... BE any more happy with this company?"<br><span>Bhutana</span></h4>
+                    <h4>"Could I... BE any more happy with this company?"<br><span>Chandler Bing, Actor,
+                            FriendsAlot</span></h4>
                 </div>
             </div>
 
@@ -184,7 +202,7 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-    </div> 
+    </div>
 
     <!-- Container (Contact Section) -->
     <div id="contact" class="container-fluid bg-grey">
@@ -193,11 +211,12 @@
             <div class="col-sm-5">
                 <p>Contact us and we'll get back to you within 24 hours.</p>
                 <p><span class="glyphicon glyphicon-map-marker"></span> Khayelitsha, CT</p>
-                <p><span class="glyphicon glyphicon-phone"></span> +27 84 762 9851 Mpilo</p>
-                <p><span class="glyphicon glyphicon-phone"></span> +27 78 614 5938 Simba</p>
-                <p><span class="glyphicon glyphicon-envelope"></span> mpilo@capealluminiumkings.co.za</p>
+                <p><span class="glyphicon glyphicon-phone"></span> +27 78 614 5938 Simba (Sales)</p>
+                <p><span class="glyphicon glyphicon-phone"></span> +27 84 762 9851 Mpilo (Sales)</p>
+                <p><span class="glyphicon glyphicon-phone"></span> +27 83 250 7965 Naobie (Marketing)</p>
+                <p><span class="glyphicon glyphicon-envelope"></span>mpilo@capealluminiumkings.co.za</p>
             </div>
-            <form id="contact_form"  class="col-sm-7 slideanim">
+            <form id="contact_form" class="col-sm-7 slideanim">
                 <div class="row">
                     <div class="col-sm-6 form-group">
                         <input class="form-control" id="name" name="name" placeholder="Name" type="text" required />
@@ -212,7 +231,7 @@
                     </div>
                 </div>
                 <textarea class="form-control" id="message" name="message" placeholder="Your message" rows="5"
-                type="text" required></textarea><br>
+                    required></textarea><br>
                 <div class="row">
                     <div class="col-sm-12 form-group">
                         <button id="submit-button" class="btn btn-default pull-right" type="submit">Send</button>
@@ -228,8 +247,22 @@
             <span class="glyphicon glyphicon-chevron-up"></span>
         </a>
     </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
         $(document).ready(function () {
+            var mySwiper = new Swiper('.swiper-container', {
+                slidesPerView: 3,
+                spaceBetween: 30,
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            })
+
             $(".navbar a, footer a[href='#myPage']").on('click', function (event) {
                 if (this.hash !== "") {
                     event.preventDefault();
@@ -257,12 +290,11 @@
             });
 
             function sendEmail(emailBody) {
-                var mySecret = "siseko.Bw0L8ArgQgG4JVkWyMYs-A.JaSbGs1pWWN7X5P9EiBfPYuzIML94R3BKoRja8E6-dA";
                 Email.send({
                     Host: "smtp.sendgrid.net",
                     Username: "apikey",
-                    Password: mySecret.replace("siseko", "SG"),
-                    To: 'capealluminiumkings@gmail.com',
+                    Password: "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",
+                    To: 'njataabo@gmail.com',
                     From: "sisekoreggieneti@gmail.com",
                     Subject: "Contact us",
                     Body: emailBody,
@@ -277,7 +309,9 @@
                 var telephone = $("#telephone").val();
                 var message = $("#message").val();
 
-                var emailHtml = '<table> <tr>  <td>Name: ' + name + ' </td></tr> <tr> <td> Email: ' + email + '</td> </tr> <tr> </tr> <td>Telephone: ' + telephone + ' </td> <tr> <td>Message: ' + message + ' </td></tr> </table>'
+                var contactMessage = "Name: " + name + " \nEmail: " + email + "\nTelephone: " + telephone + " \nMessage: " + message;
+
+                var emailHtml = '<table> <tr>  <td>Name: ' + name + ' </td></tr> <tr> </tr> <td>Telephone: ' + telephone + ' </td> <tr> <td>Message: ' + message + ' </td></tr> </table>'
                 sendEmail(emailHtml);
             }
 
@@ -288,16 +322,14 @@
                         required: true,
                         email: true,
                     },
-                    phone: 'phone',
                     message: 'required'
                 },
                 messages: {
                     name: 'please enter your name',
                     email: 'Please enter a valid email',
-                    phone: 'Please enter a valid phone number',
                     message: 'Please enter your message'
                 },
-                submitHandler: function() {
+                submitHandler: function () {
                     submitContactForm();
                 }
             });
